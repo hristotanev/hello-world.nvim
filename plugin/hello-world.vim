@@ -8,4 +8,4 @@ endif
 
 let g:loaded_helloworldplugin = 1
 
-command! -nargs=0 HelloWorld lua require("hello-world.nvim").display_message()
+command! -nargs=0 HelloWorld lua require("hello-world").display_message()
